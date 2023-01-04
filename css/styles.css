@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    src: url(fonts/Golos-Text_DemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/Golos-Text_Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/Golos-Text_Bold.ttf);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-style: normal;
+    font-family: 'Golos';
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --main-dark-blue: #003154;
+    --dark-blue-9-percents: #174463;
+    --black: #000103;
+    --black-80-percents: #1E1E1E;
+    --black-70-percents: #404040;
+    --black-60-percents: #888888;
+    --grey: #8F9090;
+    --main-grey: #D0D0D0;
+    --grey-30-percents: #E1E1E1;
+    --grey-20-percents: #EAEAEA;
+    --grey-10-percents: #F5F5F5;
+    --grey-blue-5-percents: #F7F7F8;
+    --white: #FFFFFF;
+    --second-blue: #60C0C3;
+    --light-blue: #F2F6FB;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*      fonts       */
+
+.h-33_db {
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 116%;
+}
+
+.h-29_db {
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 116%;
+}
+
+.h-24_db {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 110%;
+}
+
+.t-23_r {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 130%;
+}
+
+.h-21_db {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 120%;
+}
+
+.t-21_r {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+}
+
+.h-18_db {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 152%;
+}
+
+.t-18_r {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 162%;
+}
+
+.h-17_db {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 158%;
+}
+
+.t-17_r {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 158%;
+}
+
+.h-15_db {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 148%;
+}
+
+.t-15_r {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 148%;
+}
+
+.t-15_r-L {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 174%;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+.h-14_db {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 158%;
+}
+
+.t-14_r {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+}
+
+.h-13_db-U {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.t-11_r {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 158%;
+}
+
+/* header section */
+
+.header-section {
+    padding: 24px 0;
+}
+.header-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-flex__left {
+    display: flex;
+}
+.polair-logo {
+    width: 201px;
+    margin-right: 24px;
+}
+.polair-logo-h1 {
+    width: 360px;
+    color: var(--grey);
+}
+.header-flex__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 242px;
+}
+.feedback-archor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail-icon {
+    width: 17px;
+    margin-right: 6px;
+}
+
+.feedback-archor-text {
+    width: 109px;
+    color: var(--main-dark-blue);
+}
+
+.switch-language {
+    width: 26px;
+    color: var(--main-dark-blue);
+}
+
+.search-logo {
+    width: 20px;
+}
+
+/* responsive header section */
+
+
+
+
