@@ -239,8 +239,69 @@ a {
     width: 20px;
 }
 
+.burger-icon {
+    display: none;
+}
+
 /* responsive header section */
 
+@media only screen and (max-width: 1300px) {
+    .header-section {
+        padding: 24px 100px;
+    }
 
+    .container {
+        max-width: 100%;
+    }
+}
 
+@media only screen and (max-width: 1000px) {
+    .polair-logo-h1 {
+        display: none;
+    }
+}
 
+@media only screen and (max-width: 700px) {
+
+    .header-section {
+        padding: 16px 50px 12px 50px;
+    }
+
+    .feedback-archor {
+        display: none;
+    }
+
+    .header-flex__right {
+        justify-content: flex-end;
+    }
+
+    .switch-language {
+        margin-right: 6px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .polair-logo {
+        width: 129px;
+    }
+
+    .switch-language {
+        display: none;
+    }
+
+    .burger-icon {
+        display: block;
+    }
+
+    .header-flex__right {
+        width: 60px;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header-section {
+        padding: 16px 16px 12px 16px;
+    }
+}
