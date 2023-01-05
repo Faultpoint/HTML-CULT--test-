@@ -2,21 +2,21 @@
     font-family: 'Golos';
     font-style: normal;
     font-weight: 600;
-    src: url(fonts/Golos-Text_DemiBold.ttf);
+    src: url(/fonts/Golos-Text_DemiBold.ttf);
 }
 
 @font-face {
     font-family: 'Golos';
     font-style: normal;
     font-weight: 400;
-    src: url(fonts/Golos-Text_Regular.ttf);
+    src: url(/fonts/Golos-Text_Regular.ttf);
 }
 
 @font-face {
     font-family: 'Golos';
     font-style: normal;
     font-weight: 700;
-    src: url(fonts/Golos-Text_Bold.ttf);
+    src: url(/fonts/Golos-Text_Bold.ttf);
 }
 
 html {
@@ -282,6 +282,10 @@ a {
 }
 
 @media only screen and (max-width: 500px) {
+    .header-section {
+        padding: 16px 16px 12px 16px;
+    }
+
     .polair-logo {
         width: 129px;
     }
