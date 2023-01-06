@@ -77,7 +77,8 @@ a {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -308,4 +309,33 @@ a {
     .header-section {
         padding: 16px 16px 12px 16px;
     }
+}
+
+/* navbar section */
+
+.navbar-section {
+    padding: 16px;
+}
+
+.navbar {
+    color: var(--black-70-percents);
+}
+
+.navbar-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navbar-flex-item {
+    list-style: none;
+}
+
+.navbar-link {
+    color: var(--black-70-percents);
+}
+
+.navbar-arrow {
+    display: inline-block;
 }
