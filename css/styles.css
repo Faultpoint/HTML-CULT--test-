@@ -339,3 +339,64 @@ a {
 .navbar-arrow {
     display: inline-block;
 }
+
+
+.menu {
+   display: inline-block; 
+}
+
+.menu__button {
+    color: var(--black-70-percents);
+    border: none;
+    background-color: #fff;
+}
+
+.menu._active .menu__list {
+    display: block;
+    position: fixed;
+}
+
+.menu._active .menu__button span:first-child {
+    display: none;
+}
+
+.menu._active .menu__button span:last-child {
+    display: block;
+}
+
+.menu__button span:first-child {
+    display: block;
+}
+
+.menu__button span:last-child {
+    display: none;
+}
+
+.arrow-closed {
+    rotate: -90deg;
+}
+
+.menu__list {
+    background-color: var(--main-dark-blue);
+    list-style: none;
+    padding: 10px;
+}
+
+.menu__list li:not(:last-child) {
+    margin: 0 0 10px 0;
+}
+
+.menu__list-item {
+    margin: 10px 10px;
+}
+
+.menu-link {
+    color: #fff;
+}
+
+/* banner section  */
+
+.banner-section {
+    background-color: var(--second-blue);
+    height: 100px;
+}

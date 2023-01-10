@@ -36,18 +36,32 @@
         <div class="container">
             <nav class="navbar">
                 <ul class="navbar-flex">
-                    <li class="navbar-flex-item t-15_r">
-                        <a class="navbar-link" href="#header-section">Продукция
-                            <img  class="navbar-arrow" src="img/arrow-icon.svg" alt="V">
-                        </a>
+                    <li class="navbar-flex-item menu t-15_r">
+                        <button type="button" class="menu__button" id="#menu-1">
+                            <span>Продукция<img  class="navbar-arrow" src="img/arrow-icon.svg" alt="V"></span>
+                            <span>Продукция<img  class="navbar-arrow arrow-closed" src="img/arrow-icon.svg" alt="V"></span>
+                        </button>
+                        <ul hidden class="menu__list">
+                            <li><a class="menu-link" href="#">Ссылка №1</a></li> <!-- вставить ссылку --> 
+                            <li><a class="menu-link" href="#">Ссылка №2</a></li> <!-- вставить ссылку --> 
+                            <li><a class="menu-link" href="#">Ссылка №3</a></li> <!-- вставить ссылку --> 
+                            <li><a class="menu-link" href="#">Ссылка №4</a></li> <!-- вставить ссылку --> 
+                        </ul>
                     </li>
                     <li class="navbar-flex-item t-15_r">
                         <a class="navbar-link" href="#">Где купить</a> <!-- вставить ссылку --> 
                     </li>
-                    <li class="navbar-flex-item t-15_r">
-                        <a class="navbar-link" href="#">Сервис и поддержка <!-- вставить ссылку --> 
-                            <img class="navbar-arrow" src="img/arrow-icon.svg" alt="V" >
-                        </a>
+                    <li class="navbar-flex-item menu t-15_r">
+                        <button type="button" class="menu__button" id="#menu-2">
+                            <span>Сервис и поддержка<img  class="navbar-arrow" src="img/arrow-icon.svg" alt="V"></span>
+                            <span>Сервис и поддержка<img  class="navbar-arrow arrow-closed" src="img/arrow-icon.svg" alt="V"></span>
+                        </button>
+                        <ul hidden class="menu__list">
+                            <li><a class="menu-link" href="#">Ссылка №1</a></li> <!-- вставить ссылку --> 
+                            <li><a class="menu-link" href="#">Ссылка №2</a></li> <!-- вставить ссылку --> 
+                            <li><a class="menu-link" href="#">Ссылка №3</a></li> <!-- вставить ссылку --> 
+                            <li><a class="menu-link" href="#">Ссылка №4</a></li> <!-- вставить ссылку --> 
+                        </ul>
                     </li>
                     <li class="navbar-flex-item t-15_r">
                         <a class="navbar-link" href="#">Решения</a> <!-- вставить ссылку --> 
@@ -55,7 +69,7 @@
                     <li class="navbar-flex-item t-15_r">
                         <a class="navbar-link" href="#">О компании</a>  <!-- вставить ссылку --> 
                     </li>
-                    <li class="navbar-flex-item t-15_r"><a class="navbar-link" href="">Медиа</a>  <!-- вставить ссылку --> 
+                    <li class="navbar-flex-item t-15_r"><a class="navbar-link" href="#">Медиа</a>  <!-- вставить ссылку --> 
                     </li>
                     <li class="navbar-flex-item t-15_r">
                         <a class="navbar-link" href="#">Новости</a> <!-- вставить ссылку --> 
@@ -67,6 +81,9 @@
             </nav>
         </div>
     </div>
+
+    <!-- banner section -->
+    <div class="banner-section"></div>
     
     <script src="/js/script.js"></script>
 </body>
